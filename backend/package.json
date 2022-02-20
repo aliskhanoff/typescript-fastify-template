@@ -1,0 +1,19 @@
+{
+  "name": "typescript-fastify-tempalte-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "debug": "nodemon -r dotenv/config ./src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "fastify": "^3.27.2",
+    "fastify-cors": "^6.0.2",
+    "fastify-env": "^2.1.1",
+    "fastify-static": "^4.5.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5"
+  }
+}
